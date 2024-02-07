@@ -24,12 +24,12 @@
 // 	negNum++;
 // }
 
-Console.WriteLine("Введите число");
-int num = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите число");
+// int num = Convert.ToInt32(Console.ReadLine());
 
-int num1 = num / 100;
-int num2 = num % 10;
+// int num1 = num / 100;
+// int num2 = num % 10;
 
-int result = num1 + num2;
-// Console.WriteLine("Сумма = " + result + " рублей");
-Console.WriteLine($"Сумма = {result} рублей");
+// int result = num1 + num2;
+// Console.WriteLine("Сумма = " + result + " рублей"); Конкатенация
+// Console.WriteLine($"Сумма = {result} рублей"); Интерполяция

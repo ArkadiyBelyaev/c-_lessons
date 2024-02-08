@@ -33,3 +33,12 @@
 // int result = num1 + num2;
 // Console.WriteLine("Сумма = " + result + " рублей"); Конкатенация
 // Console.WriteLine($"Сумма = {result} рублей"); Интерполяция
+// int num = int.Parse(Console.ReadLine());
+
+int num = Convert.ToInt32(Console.ReadLine());
+
+int num1 = num / 100;
+int num3 = num % 10;
+
+int result = num1 * 10 + num3;
+Console.WriteLine(result);
